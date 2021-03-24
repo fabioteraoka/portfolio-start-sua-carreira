@@ -38,3 +38,5 @@ Esse repositório será atualizado todos os dias, com as alterações feitas jun
 ### O layout
 
 [Desktop](./kenzie-academy_startnasuacarreira.png)
+
+[Mobile](./kenzie-academy_startnasuacarreira-mobile.png)
