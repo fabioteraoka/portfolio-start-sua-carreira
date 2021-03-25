@@ -173,6 +173,7 @@ main .coluna section ul li strong{
 label{
     border: solid 2px red;
 }
+
 .ativar-dark:checked ~ .dark-mode{
     --corBackgroundPrimaria: #000;
     --corBackgroundSecundaria: #000;
