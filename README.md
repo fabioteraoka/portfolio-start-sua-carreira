@@ -40,3 +40,28 @@ Esse repositório será atualizado todos os dias, com as alterações feitas jun
 [Desktop](./kenzie-academy_startnasuacarreira.png)
 
 [Mobile](./kenzie-academy_startnasuacarreira-mobile.png)
+
+## Documentação
+
+### `animation`
+
+- [CSS Animations - W3Schools(em inglês)](https://www.w3schools.com/css/css3_animations.asp)
+- [@keyframes - MDN](https://developer.mozilla.org/pt-BR/docs/Web/CSS/@keyframes)
+- [animation - MDN](https://developer.mozilla.org/pt-BR/docs/Web/CSS/animation)
+
+### `transition`
+
+- [CSS Transitions - W3Schools(em inglês)](https://www.w3schools.com/css/css3_transitions.asp)
+- [transition - MDN](https://developer.mozilla.org/pt-BR/docs/Web/CSS/transition)
+
+### `transform`
+
+- [CSS transform Property - W3Schools(em inglês)](https://www.w3schools.com/cssref/css3_pr_transform.asp)
+- [transform - MDN](https://developer.mozilla.org/pt-BR/docs/Web/CSS/transform)
+- [transform - MDN(em inglês)](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)
+
+### `position`
+
+- [CSS position Property - W3Schools(em inglês)](https://www.w3schools.com/cssref/pr_class_position.asp)
+- [position - MDN](https://developer.mozilla.org/pt-BR/docs/Web/CSS/position)
+- [position - MDN(em inglês)](https://developer.mozilla.org/pt-BR/docs/Web/CSS/position)
