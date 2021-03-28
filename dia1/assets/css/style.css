@@ -1,10 +1,4 @@
 /*
-Theme Name: Start sua carreira
-Theme URI: http://www.startsuacarreira.com.br
-Author: Kenzie Academy BR
-Author URI: https://kenzie.com.br;
-Description: Descrição do thema.
-Version: 1.0
 
 --------------------------------------------
 ESTRUTURA BASE
@@ -30,3 +24,38 @@ html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li
     list-style: none;
     text-decoration: none;
 }
+
+/* header -----------*/
+/* corpo Principal*/
+header {}
+header div{}
+
+/* caixa com foto de perfil */
+.foto{}
+.foto figure{}
+.foto figure img{}
+.foto figure figcaption{}
+
+/* caixa com dados pessoais */
+.perfil{}
+.perfil h1{}
+.perfil ul{}
+.perfil ul li{}
+.perfil ul li a{}
+
+/* Corpo Pirncipal */
+main{}
+
+/*Caixa lado direito */
+.lado_direito{}
+.lado_direito h2{}
+.lado_direito p{}
+
+.perfil_profissional{}
+.perfil_profissional h2{}
+.perfil_profissional p{}
+.perfil_profissional ul{}
+.perfil_profissional ul li{}
+
+
+/*Caixa lado exquerdo */
