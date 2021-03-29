@@ -65,7 +65,7 @@ body {
 /* header -----------*/
 /* corpo Principal*/
 header {
-  background-color: #45dbfc;
+  background-color: #055e727a;
   padding-top: 30px;
 }
 header div {
@@ -159,6 +159,8 @@ main .coluna img {
 }
 main .coluna h2 {
   font-size: 1.3rem;
+  text-align: center;
+  margin-bottom: 10px;
 }
 main .coluna p {
   font-size: 0.9rem;
@@ -241,6 +243,7 @@ footer .socila_media ul li a p {
 }
 .especialidade ul li {
   padding: 0.1rem;
+  text-align: justify;
 }
 
 .aprimoramento {
@@ -251,6 +254,7 @@ footer .socila_media ul li a p {
 }
 .aprimoramento h2 ul li {
   padding: 0.1rem;
+  text-align: justify;
 }
 
 .gestao {
@@ -261,6 +265,7 @@ footer .socila_media ul li a p {
 }
 .gestao ul li {
   padding: 0.1rem;
+  text-align: justify;
 }
 
 .programacao {
@@ -271,6 +276,7 @@ footer .socila_media ul li a p {
 }
 .programacao ul li {
   padding: 0.1rem;
+  text-align: justify;
 }
 /*Caixa lado exquerdo */
 .lado_esquerdo {
@@ -298,11 +304,13 @@ footer .socila_media ul li a p {
 }
 .formacao {
 }
-.formacao h2 {
+.formacao ul li {
+  margin-bottom: 30px;
 }
 .formacao ul li img {
-  justify-content: center;
-  align-items: center;
+  margin-left: 120px;
+  width: 250px;
+  margin-top: 10px;
 }
 .formacao ul li h2 {
   text-align: center;
