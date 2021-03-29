@@ -11,29 +11,29 @@ Esse repositório será atualizado todos os dias, com as alterações feitas jun
 - kenzie-academy_startnasuacarreira.png
 - README.md
 - dia1/
-    - index.html
-    - assets/
-        - img/
-            - facebook-app-symbol.svg
-            - github-big-logo.svg
-            - hudson.png
-            - instagram.svg
-            - linkedin.svg
-            - youtube.svg
-        - css/
-            - style.css
+  - index.html
+  - assets/
+    - img/
+      - facebook-app-symbol.svg
+      - github-big-logo.svg
+      - hudson.png
+      - instagram.svg
+      - linkedin.svg
+      - youtube.svg
+    - css/
+      - style.css
 
 ### Especificações
 
 - Fonte utilizada: `'Open Sans', sans-serif;`
 - Cores utilizadas:
-    - Azul escuro: `#04133d`;
-    - Azul: `#0a78fa`;
-    - Azul claro: `#45dbfc`;
-    - Azul mais claro: `#d4e9ff`;
-    - Branco: `#fff`;
-    - Cinza escuro: `#636363`;
-    - Cinza claro: `#aeaeae`;
+  - Azul escuro: `#04133d`;
+  - Azul: `#0a78fa`;
+  - Azul claro: `#45dbfc`;
+  - Azul mais claro: `#d4e9ff`;
+  - Branco: `#fff`;
+  - Cinza escuro: `#636363`;
+  - Cinza claro: `#aeaeae`;
 
 ### O layout
 
@@ -65,3 +65,14 @@ Esse repositório será atualizado todos os dias, com as alterações feitas jun
 - [CSS position Property - W3Schools(em inglês)](https://www.w3schools.com/cssref/pr_class_position.asp)
 - [position - MDN](https://developer.mozilla.org/pt-BR/docs/Web/CSS/position)
 - [position - MDN(em inglês)](https://developer.mozilla.org/pt-BR/docs/Web/CSS/position)
+
+    <div class="progress">
+        <P>Engenharia</P>
+        <progress id="progress" value="82" max="100"> 82% </progress>
+    </div>
+
+@media only screen and (min-width: 768px) {
+
+}
+@media only screen and (min-width: 991px) {
+}

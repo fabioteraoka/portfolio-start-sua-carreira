@@ -41,20 +41,17 @@ main {
   list-style: none;
   text-decoration: none;
 }
-.container {
-  width: 100%;
-  max-width: 1125px;
-  margin: 0 auto;
-  padding: 30px;
+:root {
+  --colorHeader: #055e727a;
+  --colorFooter: #04133d;
 }
+
 .linha {
-  display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-between;
 }
 .coluna {
-  flex-basis: 49%;
 }
 /* body */
 
@@ -65,25 +62,19 @@ body {
 /* header -----------*/
 /* corpo Principal*/
 header {
-  background-color: #055e727a;
+  background-color: var(--colorHeader);
   padding-top: 30px;
 }
 header div {
 }
-
+.foto {
+  margin-left: 18%;
+}
 header .container {
   background-color: white;
 }
 header .linha {
   align-items: center;
-}
-header .coluna {
-}
-header .foto {
-}
-header .perfil {
-}
-header .coluna figure {
 }
 header .coluna img {
   max-width: 250px;
@@ -92,31 +83,15 @@ header .coluna img {
 header .coluna figcaption {
   display: none;
 }
-header .coluna h1 {
-}
-header .coluna p {
-}
-header .coluna ul {
-}
-header .coluna ul li {
-}
-header .coluna ul li a {
-}
 
 /* caixa com foto de perfil */
 .foto {
   flex-basis: 30%;
 }
-.foto figure {
-}
-.foto figure img {
-}
-.foto figure figcaption {
-}
 
 /* caixa com dados pessoais */
 .perfil {
-  flex-basis: 70%;
+  text-align: center;
 }
 .perfil h1 {
   font-size: 1.5rem;
@@ -136,27 +111,13 @@ header .coluna ul li a {
 }
 
 /* Corpo Pirncipal */
-main {
-}
-main .container {
-}
-main .linha {
-}
-main .coluna {
-}
-main .lado_direito {
-}
-main .lado_esquerdo {
-}
+
 main section {
   border: 1px solid #45dbfc;
   margin: 0 0 20px;
   padding: 20px;
 }
-main .coluna figure {
-}
-main .coluna img {
-}
+
 main .coluna h2 {
   font-size: 1.3rem;
   text-align: center;
@@ -186,130 +147,40 @@ main .coluna ul li p {
   text-align: justify;
 }
 
-/* rodape */
-footer {
-}
-footer {
-}
-footer .container {
-}
-
-footer .contato nav {
-}
-footer .contato ul {
-}
-footer .contato ul li {
-}
-footer .contato ul li a {
-}
-
-footer .socila_media {
-}
-footer .socila_media ul {
-}
-footer .socila_media ul li {
-}
-footer .socila_media ul li a {
-}
-footer .socila_media ul li a img {
-}
-footer .socila_media ul li a p {
-}
-
 /*Caixa lado direito */
-.lado_direito {
-}
-.lado_direito h2 {
-}
-.lado_direito p {
-}
 
-.perfil_profissional {
-}
-.perfil_profissional h2 {
-}
-.perfil_profissional p {
-}
-.perfil_profissional ul {
-}
-.perfil_profissional ul li {
-}
-
-.especialidade {
-}
-.especialidade h2 {
-}
-.especialidade ul {
-}
 .especialidade ul li {
   padding: 0.1rem;
   text-align: justify;
 }
 
-.aprimoramento {
-}
-.aprimoramento h2 {
-}
-.aprimoramento h2 ul {
-}
 .aprimoramento h2 ul li {
   padding: 0.1rem;
   text-align: justify;
 }
 
-.gestao {
-}
-.gestao h2 {
-}
-.geatao ul {
-}
 .gestao ul li {
   padding: 0.1rem;
   text-align: justify;
 }
 
-.programacao {
-}
-.programacao h2 {
-}
-.programacao ul {
-}
 .programacao ul li {
   padding: 0.1rem;
   text-align: justify;
 }
 /*Caixa lado exquerdo */
-.lado_esquerdo {
-}
-.lado_esquerdo h2 {
-}
+
 .lado_esquerdo p {
   text-align: justify;
   padding: 0.3rem;
 }
 
-.experiencia {
-}
-.experiencia ul {
-}
-.experiencia ul li {
-}
-.experiencia ul li h3 {
-}
-.experiencia ul li strong {
-}
-.experiencia ul li h4 {
-}
-.experiencia ul li p {
-}
-.formacao {
-}
 .formacao ul li {
   margin-bottom: 30px;
 }
 .formacao ul li img {
-  margin-left: 120px;
-  width: 250px;
+  margin-left: 30%;
+  width: 180px;
   margin-top: 10px;
 }
 .formacao ul li h2 {
@@ -319,4 +190,298 @@ footer .socila_media ul li a p {
   margin: 0px;
   text-align: center;
   display: block;
+}
+.skill ul li {
+  padding: 27px;
+  display: grid;
+  justify-content: space-around;
+}
+.skill ul li img {
+  width: 100px;
+  margin-left: 20%;
+}
+.skill ul li progress {
+  font-size: 1.2rem;
+}
+
+/* rodape */
+footer {
+  background: var(--colorFooter);
+}
+footer .contato ul li {
+  margin: 0 0 10px;
+  text-align: center;
+}
+footer .contato ul li a {
+  color: white;
+}
+
+footer .social_media ul {
+  display: flex;
+
+  justify-content: center;
+  margin-top: 20px 0 50px;
+  padding: 40px 0 0;
+  border-top: 1px solid rgba(255, 255, 255, 20%);
+}
+footer .social_media ul li {
+  margin: 0 15px;
+  text-align: center;
+}
+footer .social_media ul li a {
+  color: white;
+}
+footer .social_media ul li a img {
+  width: 40px;
+}
+/* Extras */
+
+.ativar-dark {
+  width: 50px;
+  height: 50px;
+  display: none;
+}
+.ativar-dark:checked {
+}
+.ativar-dark:checked ~ .dark-mode {
+  --colorHeader: #000;
+  --colorFooter: #45dbfc;
+}
+/* @media */
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 831px) {
+  html,
+  body,
+  figure,
+  img,
+  div,
+  input,
+  textarea,
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  ul,
+  li,
+  a,
+  main {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+  }
+  :root {
+    --colorHeader: #055e727a;
+    --colorFooter: #04133d;
+  }
+  .container {
+    width: 100%;
+    max-width: 1125px;
+    margin: 0 auto;
+    padding: 30px;
+  }
+  .linha {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .coluna {
+    flex-basis: 49%;
+  }
+  /* body */
+
+  body {
+    font-family: "Open Sans", sans-serif;
+  }
+
+  /* header -----------*/
+  /* corpo Principal*/
+  header {
+    background-color: var(--colorHeader);
+    padding-top: 30px;
+  }
+  header div {
+  }
+
+  header .container {
+    background-color: white;
+  }
+  header .linha {
+    align-items: center;
+  }
+  header .coluna img {
+    max-width: 250px;
+    border-radius: 100%;
+  }
+  header .coluna figcaption {
+    display: none;
+  }
+
+  /* caixa com foto de perfil */
+  .foto {
+    flex-basis: 30%;
+  }
+
+  /* caixa com dados pessoais */
+  .perfil {
+    flex-basis: 70%;
+  }
+  .perfil h1 {
+    font-size: 1.5rem;
+  }
+  .perfil p {
+    color: #aeaeae;
+  }
+  .perfil ul {
+    margin: 16px 0 0;
+  }
+  .perfil ul li {
+    margin: 0 0 12px;
+  }
+  .perfil ul li a {
+    font-size: 1rem;
+    color: #000;
+  }
+
+  /* Corpo Pirncipal */
+
+  main section {
+    border: 1px solid #45dbfc;
+    margin: 0 0 20px;
+    padding: 20px;
+  }
+
+  main .coluna h2 {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  main .coluna p {
+    font-size: 0.9rem;
+    color: #636363;
+    line-height: 1.5;
+  }
+  main .coluna ul {
+  }
+  main .coluna ul li {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  main .coluna ul li strong {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 0px 0 5px;
+    display: inline-block;
+  }
+  main .coluna ul li h4 {
+  }
+  main .coluna ul li p {
+    margin-bottom: 10px;
+    text-align: justify;
+  }
+
+  /*Caixa lado direito */
+
+  .especialidade ul li {
+    padding: 0.1rem;
+    text-align: justify;
+  }
+
+  .aprimoramento h2 ul li {
+    padding: 0.1rem;
+    text-align: justify;
+  }
+
+  .gestao ul li {
+    padding: 0.1rem;
+    text-align: justify;
+  }
+
+  .programacao ul li {
+    padding: 0.1rem;
+    text-align: justify;
+  }
+  /*Caixa lado exquerdo */
+
+  .lado_esquerdo p {
+    text-align: justify;
+    padding: 0.3rem;
+  }
+
+  .formacao ul li {
+    margin-bottom: 30px;
+  }
+  .formacao ul li img {
+    margin-left: 30%;
+    width: 180px;
+    margin-top: 10px;
+  }
+  .formacao ul li h2 {
+    text-align: center;
+  }
+  .formacao ul li a {
+    margin: 0px;
+    text-align: center;
+    display: block;
+  }
+  .skill ul li {
+    padding: 27px;
+    display: grid;
+    justify-content: space-around;
+  }
+  .skill ul li img {
+    width: 100px;
+  }
+  .skill ul li progress {
+    font-size: 1.2rem;
+  }
+
+  /* rodape */
+  footer {
+    background: var(--colorFooter);
+  }
+  footer .contato ul li {
+    margin: 0 0 10px;
+  }
+  footer .contato ul li a {
+    color: white;
+  }
+
+  footer .social_media ul {
+    display: flex;
+
+    justify-content: center;
+    margin-top: 20px 0 50px;
+    padding: 40px 0 0;
+    border-top: 1px solid rgba(255, 255, 255, 20%);
+  }
+  footer .social_media ul li {
+    margin: 0 15px;
+    text-align: center;
+  }
+  footer .social_media ul li a {
+    color: white;
+  }
+  footer .social_media ul li a img {
+    width: 40px;
+  }
+  /* Extras */
+
+  .ativar-dark {
+    width: 50px;
+    height: 50px;
+    display: none;
+  }
+  .ativar-dark:checked {
+  }
+  .ativar-dark:checked ~ .dark-mode {
+    --colorHeader: #000;
+    --colorFooter: #45dbfc;
+  }
 }
